@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/014/455/872/original/illustration-of-keep-the-book-icon-on-transparent-background-free-png.png">
+    <title>Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/din-condensed');
+
+    body {
+    font-family: Arial, Helvetica, sans-serif, 'DIN Condensed';
+    }
+
+.button {
+  border: none;
+  background-color: rgb(212, 212, 212);
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3.5em;
+  font-family: "DIN Condensed";
+  margin: 15px 2px;
+  cursor: pointer;
+}
+
+.buttonLogin {
+    border: none;
+    background-color: rgb(212, 212, 212);
+    color: rgb(0, 0, 0);
+    padding: 20px 57px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.5em;
+    font-family: "DIN Condensed";
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.buttonLogin:hover {
+    background-color: rgb(242, 242, 242);
+    transition: all 0.2s ease;
+}
+
+.disable-scroll{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+</style>
+</head>
+    <body class="disable-scroll" style="font-family: DIN Condensed;">
+    <form method="POST">
+        
+            <h1 style="font-size:7em;position:absolute; left:550px; top:-30px"><b><u>Tutor Match</b></u></h1>
+
+            <label for="email" style="font-size:2.5em; position: absolute; left:470px; top:250px;">
+                E-Mail:
+                <input style="font-size:1em;" type="text" name="username" minlength="3" required>
+            </label>
+
+            <label for="password" style="font-size:2.5em; position: absolute; left:432px; top:380px;">
+                Password:
+                <input style="font-size:1em;" type="text" name="username" minlength="3" required>
+            </label>
+
+            <button value="Submit" onclick="location.href='http://127.0.0.1:5000/home-page'" class="buttonLogin" style = "position:absolute; left:640px; top:500px;">Login</button> <br>
+
+        </form>
+    </body>
+</html>

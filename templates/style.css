@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.preview {
+    width: 250px;
+    max-width: 10px;
+    height: 400px;
+    position: absolute;
+}
+
+.preview img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/014/455/872/original/illustration-of-keep-the-book-icon-on-transparent-background-free-png.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/din-condensed');
+
+    body {
+    font-family: Arial, Helvetica, sans-serif, 'DIN Condensed';
+    }
+
+.button {
+  border: none;
+  background-color: rgb(212, 212, 212);
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3.5em;
+  font-family: "DIN Condensed";
+  margin: 15px 2px;
+  cursor: pointer;
+}
+
+.buttonLogin {
+    border: none;
+    background-color: rgb(212, 212, 212);
+    color: rgb(0, 0, 0);
+    padding: 20px 57px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.5em;
+    font-family: "DIN Condensed";
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.buttonLogin:hover {
+    background-color: rgb(242, 242, 242);
+    transition: all 0.2s ease;
+}
+
+.disable-scroll{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+
+</style>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+    <body class="disable-scroll" style="font-family: DIN Condensed;">
+    <h1 style="font-size:7em;position:absolute; left:30px; top:-60px"><b><u>Tutor Match</b></u></h1>
+    <div id="add_item">
+        <form method="POST" action="/signup-page/tutor-signup-page">
+
+                <label for="fullName" style="font-size:2.5em; position: relative; left:15px; top:200px;">
+                    Username:
+                    <input style="font-size:1em;" type="text" name="username" minlength="3" required>
+                </label>
+
+
+                <label for="email" style="font-size:2.5em; position: relative; left:-514px; top:275px;">
+                    E-Mail:
+                    <input style="font-size:1em;" type="text" name="username" minlength="3" required>
+                </label>
+
+                <label for="password" style="font-size:2.5em; position: absolute; left:25px; top:365px;">
+                    Password:
+                    <input style="font-size:1em;" type="text" name="username" minlength="3" required>
+                </label>
+
+                <label for="pricePerHour" style="font-size:2.5em; position: absolute; left:40px; top:448px;">
+                    Price /hr:
+                    <input style="font-size:1em;" type="text" name="username" minlength="3" required>
+                </label>
+
+                <button value="Submit" onclick="location.href='http://127.0.0.1:5000/home-page'" class="buttonLogin" style="position:absolute; left:640px; top:500px;">Sign-up</button> <br>
+
+                <label for="pricePerHour" style="font-size:2.5em; position: absolute; left:650px; top:207px;">
+                    Personal Description: <br>
+                    <textarea name="paragraph_text" cols="50" rows="15"></textarea>
+                </label>
+
+            </form>
+        </div>
+    </body>
+</html>
